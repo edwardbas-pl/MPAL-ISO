@@ -1,0 +1,16 @@
+{
+  "uuid": "arcmenu@arcmenu.com",
+  "settings-schema": "org.gnome.shell.extensions.arcmenu",
+  "gettext-domain": "arcmenu",
+  "name": "ArcMenu",
+  "description": "Application Menu Extension for GNOME",
+  "version": 66,
+  "commit": "d4f3252dec801ce64c7d4178b3c92835278d5e38",
+  "version-name": "66.0",
+  "shell-version": [ "45", "46", "47", "48" ],
+  "url": "https://gitlab.com/arcmenu/ArcMenu",
+  "donations": {
+    "paypal": "azaech",
+    "buymeacoffee": "azaech"
+  }
+}
