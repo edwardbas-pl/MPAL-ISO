@@ -1,0 +1,12 @@
+2025.08.13:
+	* Started whole project
+	* Managed to get working iso and installer
+2025.08.14:
+	* Added Calamares installer to startup
+	* Changed iso to boot into liveuser instead of root
+	* Addedd policy for avoiding authentication popup whe running installer
+	* Changed sudoers file to enable sudo on liveuser
+	* Changed sudoers file to not needing to provide password for liveuser
+	* Added nerd-fonts package
+	* Added nemo package
+	* Added w3m package for image preview in ranger

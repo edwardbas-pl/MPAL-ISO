@@ -1419,12 +1419,12 @@ power-button-action='suspend'
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-app-picker-layout=[{'btop.desktop': <{'position': <0>}>, 'org.gnome.Calculator.desktop': <{'position': <1>}>, 'd50d97bd-3a5c-4b7d-905b-564056575137': <{'position': <2>}>, 'com.discordapp.Discord.desktop': <{'position': <3>}>, 'fea220f3-aceb-4211-81f7-4766f828085d': <{'position': <4>}>, 'e54168a0-322c-484c-a43c-6437b2fa1ff3': <{'position': <5>}>, 'ac4915f0-2b51-4797-98ce-ad2712808b05': <{'position': <6>}>, 'df9401fb-9ff0-4cf9-a6c8-a6cda16bb90b': <{'position': <7>}>, 'kitty.desktop': <{'position': <8>}>, 'electron34.desktop': <{'position': <9>}>, 'gimp.desktop': <{'position': <10>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <11>}>, 'electron37.desktop': <{'position': <12>}>, 'org.gnome.FileRoller.desktop': <{'position': <13>}>, 'org.gnome.Nautilus.desktop': <{'position': <14>}>, 'filezilla.desktop': <{'position': <15>}>, 'nvim.desktop': <{'position': <16>}>, 'org.gnome.Settings.desktop': <{'position': <17>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <18>}>}]
+app-picker-layout=[{'61b7387c-7b71-478b-8d28-976de10770a3': <{'position': <0>}>, 'b0219716-4830-4795-ae5d-6176a843c226': <{'position': <1>}>, 'd50d97bd-3a5c-4b7d-905b-564056575137': <{'position': <2>}>, '260367ad-e678-4206-9d51-28a26b1941cc': <{'position': <3>}>, 'fea220f3-aceb-4211-81f7-4766f828085d': <{'position': <4>}>, 'e54168a0-322c-484c-a43c-6437b2fa1ff3': <{'position': <5>}>, 'ac4915f0-2b51-4797-98ce-ad2712808b05': <{'position': <6>}>, 'df9401fb-9ff0-4cf9-a6c8-a6cda16bb90b': <{'position': <7>}>, 'kitty.desktop': <{'position': <8>}>, 'org.gnome.DiskUtility.desktop': <{'position': <9>}>, 'gimp.desktop': <{'position': <10>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <11>}>, 'pavucontrol.desktop': <{'position': <12>}>, 'org.qutebrowser.qutebrowser.desktop': <{'position': <13>}>}]
 command-history=['mpv https://www.youtube.com/watch?v=z8hOhaeBeoY', 'kill wineserver', 'xkill\\', 'xkil', 'winecfg', 'reboot', 'r', 'xkill']
 disable-user-extensions=false
 disabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'gTile@vibou', 'sound-output-device-chooser@kgshank.net', 'ding@rastersoft.com', 'just-perfection-desktop@just-perfection', 'customreboot@nova1545', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'user-theme-x@tuberry.github.io', 'custom-accent-colors@demiskp', 'blur-my-shell@aunetx', 'user-theme@gnome-shell-extensions.gcampax.github.com']
 enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com', 'pop-shell@system76.com']
-favorite-apps=['firefox.desktop', 'nemo.desktop', 'com.valvesoftware.Steam.desktop', 'net.lutris.Lutris.desktop', 'com.jetbrains.IntelliJ-IDEA-Community.desktop']
+favorite-apps=['calamares.desktop', 'firefox.desktop', 'nemo.desktop']
 had-bluetooth-devices-setup=true
 last-selected-power-profile='power-saver'
 remember-mount-password=true
@@ -1542,8 +1542,8 @@ intellihide-use-pressure=false
 isolate-monitors=false
 leftbox-padding=-1
 multi-monitors=false
-panel-anchors='{"1":"MIDDLE","unknown-unknown":"MIDDLE"}'
-panel-element-positions='{"1":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"unknown-unknown":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-anchors='{"1":"MIDDLE","unknown-unknown":"MIDDLE","RHT-0x00000000":"MIDDLE"}'
+panel-element-positions='{"1":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"unknown-unknown":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"RHT-0x00000000":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
 panel-element-positions-monitors-sync=true
 panel-lengths='{"1":100,"unknown-unknown":100}'
 panel-positions='{"1":"BOTTOM","unknown-unknown":"BOTTOM"}'
@@ -1871,11 +1871,11 @@ search-sort-column='name'
 
 [org/nemo/window-state]
 geometry='1280x1020+2893+252'
-maximized=false
+maximized=true
 network-expanded=true
 side-pane-view='places'
 sidebar-bookmark-breakpoint=0
-sidebar-width=173
+sidebar-width=171
 start-with-sidebar=true
 
 [org/virt-manager/virt-manager]

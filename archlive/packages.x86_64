@@ -126,6 +126,8 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
+
+#non-default packages
 xorg
 xorg-xinit
 calamares-git
@@ -138,3 +140,11 @@ gdm
 networkmanager
 gnome-menus
 power-profiles-daemon
+htop
+ranger
+#nerd-fonts
+nemo
+w3m
+#ttf-symbola
+ttf-dejavu
+ttf-liberation
